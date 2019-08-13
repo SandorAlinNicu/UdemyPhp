@@ -11,11 +11,11 @@
 
 <?php
 
-$numbers = array(345,3397,676,385,2657,5784);
+$numbers = array(345, 3397, 676, 385, 2657, 5784);
 
-foreach($numbers as $number){
+foreach ($numbers as $number) {
 
-echo $number . "<br>";
+    echo $number . "<br>";
 
 }
 

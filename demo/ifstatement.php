@@ -12,7 +12,7 @@
 
 <?php
 
-if(3 > 10){
+if (3 > 10) {
 
     echo "three is less than ten";
 

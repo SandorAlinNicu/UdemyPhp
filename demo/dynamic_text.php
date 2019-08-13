@@ -13,7 +13,7 @@
 $title = "Sandor Alin";
 ?>
 
-<h1><?php echo $title?></h1>
+<h1><?php echo $title ?></h1>
 
 </body>
 </html>

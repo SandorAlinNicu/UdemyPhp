@@ -16,7 +16,7 @@ $name = 'Alin';
 $number = 100;
 $number_list = 100;
 
-echo $name. " ".$number_list;
+echo $name . " " . $number_list;
 
 ?>
 

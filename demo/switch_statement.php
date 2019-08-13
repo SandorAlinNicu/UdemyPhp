@@ -13,14 +13,22 @@
 
 $number = 100;
 
-switch($number)
-{
-    case 1: echo "variabila number este 1"; break;
-    case 2: echo "variabila number este 2"; break;
-    case 3: echo "variabila number este 3"; break;
-    case 4: echo "variabila number este 4"; break;
-    default: echo "variabila number are o alta valoare fata de cele date mai sus";
-    break;
+switch ($number) {
+    case 1:
+        echo "variabila number este 1";
+        break;
+    case 2:
+        echo "variabila number este 2";
+        break;
+    case 3:
+        echo "variabila number este 3";
+        break;
+    case 4:
+        echo "variabila number este 4";
+        break;
+    default:
+        echo "variabila number are o alta valoare fata de cele date mai sus";
+        break;
 }
 
 
