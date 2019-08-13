@@ -1,0 +1,13 @@
+strpos($str,$what); / strrpos($str,$what);
+
+substr($str,$start,$length);
+
+explode($delimiter,$str);
+
+implode($glue,$list);
+
+strstr($str,$substring,<$before_flag>:boolean);
+
+trim($str);
+
+str_replace($target,$new,$str);  ("t","a","test") => aesa
