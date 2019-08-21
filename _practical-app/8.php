@@ -26,6 +26,24 @@
 
         */
 
+        //Step 1:
+
+        $a = 'Am plecat la magazin';
+
+        //Step 2:
+
+        $hash = '$2y$10$';
+        $salt = 'stiusanumarpanalalaa22';
+        $hash_salt = $hash . $salt;
+
+        //Step 3:
+
+        $a = crypt($a , $hash_salt);
+
+        //Step 4:
+
+        echo $a;
+
         ?>
 
 
