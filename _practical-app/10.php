@@ -18,16 +18,42 @@
 
             Step 2: Set some properties for Dog, Example, eye colors, nose, or fur color
 
-            Step 4: Make a method named ShowAll that echos all the properties
+            Step 3: Make a method named ShowAll that echos all the properties
 
-            Step 5: Instantiate the class / create object and call it pitbull
+            Step 4: Instantiate the class / create object and call it pitbull
 
-    Step 6: Call the method ShowAll
-
-
-
+    Step 5: Call the method ShowAll
 
         */
+
+
+        //Step 1:
+
+        class Dog
+        {
+
+            //Step 2:
+
+            var $eyeColor = 'green';
+            var $nose = 'big';
+            var $furColor = 'black';
+
+            //Step 3:
+
+            function showAll()
+            {
+
+                echo $this->eyeColor . "<br>";
+                echo $this->nose . "<br>";
+                echo $this->furColor;
+
+            }
+
+        }
+
+        $pitbull = new Dog();
+
+        $pitbull->showAll();
 
         ?>
 
