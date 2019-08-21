@@ -29,6 +29,16 @@ function calculate()
 function say_Something()
 {
 
+    $n = 15;
+    $n = 13;
+    $n = 156;
+    $n = 'da';
+    $m = 4235;
+    $m = 'da';
+    $m = 'nu';
+    $m = 3245;
+    $m = 5435346;
+    echo $n . "<br>" . $m . "<br>";
     echo "Hello Student, do you like the class? Yes? Okay, great." . "<br>";
 
 }

@@ -25,9 +25,10 @@
 
         //Step1:
 
-        function multiply(){
+        function multiply()
+        {
 
-            return 7*8;
+            return 7 * 8;
 
         }
 
@@ -35,11 +36,12 @@
 
         //Step2:
 
-        function complex_multiply($n1,$n2){
-            return $n1*$n2;
+        function complex_multiply($n1, $n2)
+        {
+            return $n1 * $n2;
         }
 
-        echo complex_multiply(7,8)
+        echo complex_multiply(7, 8)
 
         ?>
 

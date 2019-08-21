@@ -11,14 +11,13 @@
 
 <?php
 
- $number = 10;
+$number = 10;
 
- echo $number . "<br>";
+echo $number . "<br>";
 
- define("NAME", 1000);
+define("NAME", 1000);
 
- echo NAME;
-
+echo NAME;
 
 
 ?>

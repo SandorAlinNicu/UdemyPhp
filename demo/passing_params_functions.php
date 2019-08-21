@@ -19,10 +19,11 @@
 //
 //greeting("Hello Student");
 
-function addNumbers($number1, $number2){
+function addNumbers($number1, $number2)
+{
 
-$sum = $number1 + $number2;
-echo $sum;
+    $sum = $number1 + $number2;
+    echo $sum;
 
 
 }

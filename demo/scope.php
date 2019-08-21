@@ -13,7 +13,8 @@
 
 $x = "outside";
 
-function convert(){
+function convert()
+{
     global $x;
     $x = "inside";
 
